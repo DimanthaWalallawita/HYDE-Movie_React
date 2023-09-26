@@ -17,6 +17,20 @@ const seatBooking = () => {
   tomorrow = weekday[tomorrow];
   nextday = weekday[nextday];
 
+  function validateInput(){
+    var userInput = document.getElementById("userInput").value;
+            
+            if (userInput > 5) {
+                alert("Error: Maximum number allowed is 5.");
+                document.getElementById("userInput").value = ""; 
+            }
+
+            else if(userInput <= 0){
+                alert("Error: You need to select more than 1.");
+                document.getElementById("userInput").value = "";
+            }
+  }
+
   return (
     <div>
         <Navbar/>
@@ -118,10 +132,10 @@ const seatBooking = () => {
               </select>
             </div>
 
-            <div className='movie-container2'>
+            <div className='movie-container2' data-validate = "Maximim Seats that you can book is 5.">
               <label>No of seats</label>
 
-              <input type='text'></input>
+              <input type='text' id='userInput' onBlur={validateInput}></input>
             </div>
 
             <ul className="showcase">
