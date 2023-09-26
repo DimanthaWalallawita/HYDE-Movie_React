@@ -521,11 +521,123 @@ h2{
     }
 }
 
+@media screen and (max-width:799px){
+    *{
+        align-items: center;
+    }
+    .banner{
+        margin-bottom: 15px;
+    }
+
+    .banner h4{
+        color: white;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+    
+      .banner h2{
+        font-size: 45px;
+      }
+    
+      .banner span{
+        color: red;
+        font-size: 40pcpx;
+      }
+    .container{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .first-section{
+        display: inline;
+        justify-content: center;
+    }
+
+    .container .first-section h1{
+        font-size: 46px;
+    }
+
+    .container .second-section h1{
+        font-size: 46px;
+    }
+
+    .container .first-section .date h3{
+        margin: 5vh 0 2vh 0;
+        font-size: 36px;
+    }
+
+    .container .first-section .date{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vh;
+    }
+    .container .first-section .date select{
+        width: 80vw;
+        height: 5vh;
+    }
+
+    .container .first-section .date select option{
+        width: 80vw;
+    }
+
+    .container .first-section .date .section1{
+        width: 50vw;
+        margin-left:25vw;
+        align-items: center;
+    }
+
+    .container .second-section .name {
+        display: inline;
+    }
+
+    .container .second-section .name input{
+        width: 80vw;
+        height: 5vh;
+    }
+
+    .container .second-section .name h3{
+        margin-top: 5vh;
+        font-size: 36px;
+    }
+    .hero{
+        margin-top: 1vh;
+    }
+
+    .btn-submit{
+        margin-top: 1vh;
+    }
+
+    .btn-submit button{
+        font-size: 32px;
+        width: 45vw;
+    }
+}
+
 
 @media screen and (max-width:477px){
     *{
         align-items: center;
     }
+    .banner{
+        margin-bottom: 15px;
+    }
+
+    .banner h4{
+        color: white;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+    
+      .banner h2{
+        font-size: 32px;
+      }
+    
+      .banner span{
+        color: red;
+        font-size: 40pcpx;
+      }
     .container{
         display: inline;
         justify-content: center;
