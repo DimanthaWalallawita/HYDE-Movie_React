@@ -18,6 +18,7 @@ const seatBooking = () => {
   tomorrow = weekday[tomorrow];
   nextday = weekday[nextday];
   nextdayAfter = weekday[nextdayAfter];
+  
 
   function validateInput(){
     var userInput = document.getElementById("userInput").value;
