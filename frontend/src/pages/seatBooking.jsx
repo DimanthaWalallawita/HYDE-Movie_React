@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/navbar/Navbar';
+import Navbar from '../components/navbar/NavbarSeat';
 import './styles.css';
 import './script';
 import Footer from '../containers/footer/Footer';
@@ -11,11 +11,13 @@ const seatBooking = () => {
   
   let tomorrow = day+1;
   let nextday = day+2;
+  let nextdayAfter = day+3;
 
   let weekday = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'] 
 
   tomorrow = weekday[tomorrow];
   nextday = weekday[nextday];
+  nextdayAfter = weekday[nextdayAfter];
 
   function validateInput(){
     var userInput = document.getElementById("userInput").value;
@@ -32,8 +34,15 @@ const seatBooking = () => {
   }
 
   return (
-    <div>
+    <div className='main'>
         <Navbar/>
+        <div className='banner'>
+            <section id="banner" class="section-m1">
+                <h4>New Offer</h4>
+                <h2>Up to <span>15% off</span> - Online Ticket Booking</h2>
+            </section>
+        </div>
+        
         <div className='container'>
             <div className="first-section">
                 <h1>Book a Cinema</h1>
@@ -41,49 +50,32 @@ const seatBooking = () => {
                 <div className='date'>
                     <h3>Select a Date  </h3>
                   
-                    <div className='section1'>
-                          <h2>Today</h2>
-                    </div>
-
-                    <div className='section1'>
-                          <h2>{tomorrow}</h2>
-                    </div>
-
-                    <div className='section1'>
-                          <h2>{nextday}</h2>
-                    </div>
+                    <select id="movie">
+                      <option>Today</option>
+                      <option>{tomorrow}</option>
+                      <option>{nextday}</option>
+                      <option>{nextdayAfter}</option>
+                    </select>
                 </div>
 
                 <div className='date'>
                     <h3>Select a Time  </h3>
 
-                    <div className='section1'>
-                          <h2>10 am</h2>
-                    </div>
-
-                    <div className='section1'>
-                          <h2>01 pm</h2>
-                    </div>
-
-                    <div className='section1'>
-                          <h2>04 pm</h2>
-                    </div>
+                    <select id="movie">
+                      <option>10.30 am</option>
+                      <option>1 pm</option>
+                      <option>4.45 pm</option>
+                    </select>
                 </div>
 
                 <div className='date'>
                     <h3>Select cinema</h3>
 
-                    <div className='section1'>
-                          <h2>C01</h2>
-                    </div>
-
-                    <div className='section1'>
-                          <h2>C02</h2>
-                    </div>
-
-                    <div className='section1'>
-                          <h2>C03</h2>
-                    </div>
+                    <select id="movie">
+                      <option>Cinema 01</option>
+                      <option>Cinema 02</option>
+                      <option>Cinema 03</option>
+                    </select>
                 </div>
             </div>
 

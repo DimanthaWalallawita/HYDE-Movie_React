@@ -12,6 +12,37 @@ h2{
     font-size: 30px;
 }
 
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+    background-image: url('./1.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner{
+    margin-bottom: 8vh;
+  }
+
+  .banner h4{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .banner h2{
+    font-size: 42px;
+  }
+
+  .banner span{
+    color: red;
+    font-size: 40pcpx;
+  }
+
 .container{
     display: inline-flex;
     width: fit-content;
@@ -40,13 +71,20 @@ h2{
     margin-bottom: 4vh;
 }
 
+.container .first-section .date select{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 14px;
+    font-size: 18px;
+}
+
 .container .first-section h1{
     margin-top: 8vh;
 }
 
 
 .container .first-section .date h3{
-    color: rgb(102, 141, 248);
+    color:  rgb(0, 3, 102);
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -79,7 +117,7 @@ h2{
 }
 
 .container .first-section .movie h3{
-    color: rgb(102, 141, 248);
+    color:  rgb(0, 3, 102);
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -162,7 +200,7 @@ h2{
 }
 
 .container .second-section .name h3{
-    color: rgb(102, 141, 248);
+    color: rgb(0, 3, 102);
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -446,7 +484,16 @@ h2{
     }
 
     .container .first-section .date h3{
-        margin: 5vh 0 2vh 0;
+        margin: 3.5vh 0 2vh 0;
+    }
+
+    .container .first-section .date select{
+        width: 35vw;
+        height: 28px;
+    }
+
+    .container .first-section .date select option{
+        width: 35vw;
     }
 
     .container .second-section .name {
@@ -499,6 +546,13 @@ h2{
         justify-content: center;
         align-items: center;
         margin-top: 15vh;
+    }
+    .container .first-section .date select{
+        width: 80vw;
+    }
+
+    .container .first-section .date select option{
+        width: 80vw;
     }
 
     .container .first-section .date .section1{
