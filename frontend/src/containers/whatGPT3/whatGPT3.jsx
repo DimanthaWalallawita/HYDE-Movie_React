@@ -15,6 +15,7 @@ import upcoming4 from '../../assest/upcoming4.jpg'
 import upcoming5 from '../../assest/upcoming5.jpg'
 import upcoming6 from '../../assest/upcoming6.png'
 import HoverCarousel from "hover-carousel";
+import { Link } from 'react-router-dom';
 
 const WhatGPT3 = () => {
 
@@ -40,11 +41,13 @@ const WhatGPT3 = () => {
 
                     <div className='btn-two'>
                         <div className="btn-watch">
-                            <button type='button'>Watch Trailer</button>
+                            <a href='https://youtu.be/KKktQFFcXL0?si=IbHyLVpwoYXUSY2O' target="_blank" rel="noopener noreferrer">
+                                <button type='button'>Watch Trailer</button>
+                            </a>
                         </div>
 
                         <div className="btn-book">
-                            <button type='button'>Buy Tickets</button>
+                            <button type='button'><Link to='/seatBooking'>Buy Tickets</Link></button>
                         </div>
                     </div>  
                   </div>
@@ -60,11 +63,13 @@ const WhatGPT3 = () => {
 
                     <div className='btn-two'>
                         <div className="btn-watch">
-                            <button type='button'>Watch Trailer</button>
+                            <a href='https://youtu.be/uwTCzJkCRpY?si=5i00-JIlkxpKNNAn' target="_blank" rel="noopener noreferrer">
+                                <button type='button'>Watch Trailer</button>
+                            </a>
                         </div>
 
                         <div className="btn-book">
-                            <button type='button'>Buy Tickets</button>
+                            <button type='button'><Link to='/seatBooking'>Buy Tickets</Link></button>
                         </div>
                     </div>  
                   </div>
@@ -80,11 +85,13 @@ const WhatGPT3 = () => {
 
                     <div className='btn-two'>
                         <div className="btn-watch">
-                            <button type='button'>Watch Trailer</button>
+                            <a href='https://youtu.be/pBk4NYhWNMM?si=e9srw1OcapdhyCzO' target="_blank" rel="noopener noreferrer">
+                                <button type='button'>Watch Trailer</button>
+                            </a>
                         </div>
 
                         <div className="btn-book">
-                            <button type='button'>Buy Tickets</button>
+                            <button type='button'><Link to='/seatBooking'>Buy Tickets</Link></button>
                         </div>
                     </div>  
                   </div>
@@ -100,11 +107,13 @@ const WhatGPT3 = () => {
 
                     <div className='btn-two'>
                         <div className="btn-watch">
-                            <button type='button'>Watch Trailer</button>
+                            <a href='https://youtu.be/GVPzGBvPrzw?si=6yXiuSLZg3wqBUTH' target="_blank" rel="noopener noreferrer">
+                                <button type='button'>Watch Trailer</button>
+                            </a>
                         </div>
 
                         <div className="btn-book">
-                            <button type='button'>Buy Tickets</button>
+                            <button type='button'><Link to='/seatBooking'>Buy Tickets</Link></button>
                         </div>
                     </div>  
                   </div>
@@ -120,11 +129,13 @@ const WhatGPT3 = () => {
 
                     <div className='btn-two'>
                         <div className="btn-watch">
-                            <button type='button'>Watch Trailer</button>
+                            <a href='https://youtu.be/vS3_72Gb-bI?si=1oEk3fI24BY96W9w' target="_blank" rel="noopener noreferrer">
+                                <button type='button'>Watch Trailer</button>
+                            </a>
                         </div>
 
                         <div className="btn-book">
-                            <button type='button'>Buy Tickets</button>
+                            <button type='button'><Link to='/seatBooking'>Buy Tickets</Link></button>
                         </div>
                     </div>  
                   </div>
@@ -140,11 +151,13 @@ const WhatGPT3 = () => {
 
                     <div className='btn-two'>
                         <div className="btn-watch">
-                            <button type='button'>Watch Trailer</button>
+                            <a href='https://youtu.be/DhlaBO-SwVE?si=SY5gto8OifEqJCgE' target="_blank" rel="noopener noreferrer">
+                                <button type='button'>Watch Trailer</button>
+                            </a>
                         </div>
 
                         <div className="btn-book">
-                            <button type='button'>Buy Tickets</button>
+                            <button type='button'><Link to='/seatBooking'>Buy Tickets</Link></button>
                         </div>
                     </div>  
                   </div>
@@ -160,11 +173,13 @@ const WhatGPT3 = () => {
 
                     <div className='btn-two'>
                         <div className="btn-watch">
-                            <button type='button'>Watch Trailer</button>
+                            <a href='https://youtu.be/uYPbbksJxIg?si=bogTRQ1Vj9AFrCRt' target="_blank" rel="noopener noreferrer">
+                                <button type='button'>Watch Trailer</button>
+                            </a>
                         </div>
 
                         <div className="btn-book">
-                            <button type='button'>Buy Tickets</button>
+                            <button type='button'><Link to='/seatBooking'>Buy Tickets</Link></button>
                         </div>
                     </div>  
                   </div>
@@ -180,11 +195,13 @@ const WhatGPT3 = () => {
 
                     <div className='btn-two'>
                         <div className="btn-watch">
-                            <button type='button'>Watch Trailer</button>
+                            <a href='https://youtu.be/dG91B3hHyY4?si=inykIsBF8bCSCKLg' target="_blank" rel="noopener noreferrer">
+                                <button type='button'>Watch Trailer</button>
+                            </a>
                         </div>
 
                         <div className="btn-book">
-                            <button type='button'>Buy Tickets</button>
+                            <button type='button'><Link to='/seatBooking'>Buy Tickets</Link></button>
                         </div>
                     </div>  
                   </div>
