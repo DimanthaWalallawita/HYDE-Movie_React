@@ -4,14 +4,6 @@ import logo from '../../assest/logo.png'
 import './navbar.css';
 import { Link } from 'react-router-dom';
 
-const Menu = () => (
-  <>
-  <p><a href='#home'>Home</a></p>
-  <p><a href='#wgpt3'>Movies</a></p>
-  <p><a href='#possibility'>Cinemas</a></p>
-  <p><a href='#features'>Contact Us</a></p>
-  </>
-)
 
 const Navbar = () => {
   const[toggleMenu, setToggleMenu] = useState(false);
@@ -36,7 +28,6 @@ const Navbar = () => {
         {toggleMenu && (
           <div className='navbar-menu_container scale-up-center'>
             <div className='navbar-menu_container-links'>
-              <Menu/>
               <div className='navbar-menu_container-links-sign'>
                 <button type='button'><Link to='/'>Back To Home</Link></button>
               </div>
