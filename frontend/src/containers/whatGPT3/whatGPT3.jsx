@@ -191,7 +191,7 @@ const WhatGPT3 = () => {
                 </form>
           </div>
         </div>
-        <div className="topic"><h1>Coming Zoon...</h1></div>
+        <div className="topic"><h1>Upcoming Movies</h1></div>
         <div className='Carousel'>
             <HoverCarousel images={images} />
         </div>

@@ -1,9 +1,16 @@
 import React from 'react';
-import './feature.css';
 
 const Feature = () => {
   return (
-    <div>Feature</div>
+    <div className='container'>
+      <div className="banner">
+          
+      </div>
+
+      <div className="info">
+
+      </div>
+    </div>
   )
 }
 
