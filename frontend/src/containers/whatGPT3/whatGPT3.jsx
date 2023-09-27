@@ -29,7 +29,7 @@ const WhatGPT3 = () => {
       ];
 
   return (
-    <section className="product1 section-p1">
+    <section id='wgpt3' className="product1 section-p1" >
         <div className="topic"><h1>Now Showing Movies</h1></div>
         <div className='pro-container'>
           <div className='pro'>
