@@ -16,26 +16,29 @@ At the core of this project lies a combination of modern web development technol
 ## Overall Description
 
 ###	Product Perspective
-Before undertaking this project, we studied the ‘Dress Code’ business using various methods. We have started working on this project after obtaining information from the higher officials of the institution and the officials working within the institution.  According to the information obtained from them, they had various software for running the business internally. But their main problem was to expand their business further while maintaining international relations. Therefore, their main request was to develop software to solve this problem. Therefore, upon their request, we took steps to create a suitable app for it. This software is not a modification or modification of any of their existing software. This is a brand-new software that we make for the business under a brand-new concept.
+The Ticket Booking Web Application is a user-centric and feature-rich product designed to revolutionize the way users book tickets for events, concerts, movies, and more. From a product perspective, it serves as an innovative and valuable solution for both customers and event organizers.
+
+User-Centric Experience:
+The primary focus of the Ticket Booking Web Application is to provide a seamless and user-friendly experience for customers. It enables users to easily search, browse, and select their desired events, seats, and ticket types. This product perspective emphasizes the importance of intuitive user interfaces, efficient navigation, and responsive design.
+
+01 - Comprehensive Event Listings:
+The application offers a comprehensive and up-to-date list of events, complete with detailed event information, pricing, and venue details. Users can filter and sort events based on their preferences, ensuring they can find the perfect event quickly.
+
+02 - Efficient Ticket Booking:
+From interactive seat maps to secure transactions, the product perspective prioritizes efficiency. Users can confidently select their seats and complete their bookings with minimal friction, making the entire process smooth and stress-free.
+
+03 - Real-time Updates and Notifications:
+The application provides real-time updates on ticket availability, event changes, and booking confirmations. This perspective underscores the importance of keeping users informed and engaged throughout their journey.
+
+04 - Security and Privacy:
+Security is a critical product perspective. The application ensures the safety of user data, including personal information and payment details, through the integration of Firebase. This perspective emphasizes trust and data protection.
 
 ## Final Design
-### Home Page
-![](https://github.com/DimanthaWalallawita/DressCode_Web/blob/main/Design/Home.png)
+![](https://github.com/DimanthaWalallawita/HYDE-Movie_React/blob/main/Design/screencapture-65131a05ccc7ac008f8ac553-spontaneous-starburst-70fd5b-netlify-app-2023-10-12-15_04_23.png)
 
-### Shop Page
-![](https://github.com/DimanthaWalallawita/DressCode_Web/blob/main/Design/ShopPage.png)
+![](https://github.com/DimanthaWalallawita/HYDE-Movie_React/blob/main/Design/screencapture-65131a05ccc7ac008f8ac553-spontaneous-starburst-70fd5b-netlify-app-seatBooking-2023-10-12-15_05_00.png)
 
-### Blog Page
-![](https://github.com/DimanthaWalallawita/DressCode_Web/blob/main/Design/BlogPage.png)
-
-### About Us Page
-![](https://github.com/DimanthaWalallawita/DressCode_Web/blob/main/Design/AboutUs.png)
-
-### Contact Us Page
-![](https://github.com/DimanthaWalallawita/DressCode_Web/blob/main/Design/ContactUs.png)
-
-### Cart
-![](https://github.com/DimanthaWalallawita/DressCode_Web/blob/main/Design/CartPage.png)
 
 ## Related Links
-- [Project Page](https://github.com/DimanthaWalallawita/DressCode_Web)
+- [Project Page](https://github.com/DimanthaWalallawita/HYDE-Movie_React)
+- [Published Website](https://65131a05ccc7ac008f8ac553--spontaneous-starburst-70fd5b.netlify.app/#features)
